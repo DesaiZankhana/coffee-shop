@@ -47,9 +47,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
       </div>
       <div className="flex items-center justify-between mt-4 pt-4 border-t">
         <span className="font-medium text-gray-900">₹ {price.toFixed(2)}</span>
-        <button className="bg-primary-deep text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-primary-mild transition-colors duration-200">
+        {/* <button className="bg-primary-deep text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-primary-mild transition-colors duration-200">
           Add Item
-        </button>
+        </button> */}
       </div>
     </div>
   );
